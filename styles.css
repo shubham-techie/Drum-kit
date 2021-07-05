@@ -1,0 +1,105 @@
+body{
+    background: #4C4C6D;
+    text-align: center;
+}
+
+/* title */
+h1{
+    padding: 10px;
+    font-size: 7rem;
+    font-family: 'Changa', sans-serif;
+    margin: 0 auto;
+    margin-bottom: 0;
+    color: #F7DBF0;
+    text-shadow: 8px 1px #3C415C;
+}
+
+/* drummer image and greeting */
+.welcome-container{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    height:150px;
+}
+
+.drummer-img{
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.greeting{ 
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+}
+
+.greets{
+    font-size: 150%;
+    color: #FFE194;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* buttons */
+.drum-set{
+    margin: 5% auto;
+}
+
+.drum{
+    height: 150px;
+    width: 150px;
+    border: 10px solid rgb(22, 60, 82);
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 5rem;
+    font-family: 'Domine', serif;
+    font-weight: 900;
+    line-height: 1.7;
+    color: #CC9B6D;
+}
+
+.pressed{
+    box-shadow: 1px 1px 20px #000;
+    opacity: 0.5;
+}
+
+.d{
+    background-image: url("images/tom1.png");
+}
+
+.r{
+    background-image: url("images/tom2.png");
+}
+
+.u{
+    background-image: url("images/tom3.png");
+}
+
+.m{
+    background-image: url("images/tom4.png");
+}
+
+.k{
+    background-image: url("images/crash.png");
+}
+
+.i{
+    background-image: url("images/kick.png");
+}
+
+.t{
+    background-image: url("images/snare.png");
+}
+
+/* footer */
+footer{
+    font-family: 'Lobster',cursive;
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+a{
+    color:#D6E0F0;
+}
+
