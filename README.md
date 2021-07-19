@@ -1,5 +1,5 @@
 # Drum-kit
-A simple Drum kit made just for fun.
+A simple Drum kit made just for fun with HTML,CSS and JS.
 
 **Drums(Buttons) can be played by the mouse click as well as keybaord keys.**
 
